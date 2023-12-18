@@ -13,9 +13,9 @@
 ./polyGBLUP.sh Phenotype.txt Genotype.txt rel_id val_id 8
 ```
 ## Description of arguments
-```
-Phenotype.txt   # Phenotype file: Columns 2 to 5 of “G Sir Dam Sex” are arbitrary but must include: if it is simulated data, TBV is the true breeding value; if it is real data, TBV is the phenotype value.
 
+* Phenotype.txt   # Phenotype file: Columns 2 to 5 of “G Sir Dam Sex” are arbitrary but must include: if it is simulated data, TBV is the true breeding value; if it is real data, TBV is the phenotype value.
+```
 ID G Sire Dam Sex Phe Tbv
 601 1 27 450 M -0.378874325529809 -0.322451821660245
 602 1 27 450 F 0.537554667907665 -1.03486386149278
@@ -26,6 +26,10 @@ ID G Sire Dam Sex Phe Tbv
 607 1 27 450 M -0.527503767970916 0.0978945069090352
 608 1 27 450 F 1.33129031811685 0.685598765498074
 609 1 27 450 M 0.956010092761646 1.72195216327604
+```
+
+
+```
 
 Genotype.txt # Genotype file: No header and ID name, individual order consistent with phenotype file.
 
