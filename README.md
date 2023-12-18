@@ -80,3 +80,15 @@ polyGDBLUP.txt         # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae 
 Varance_polyGBLUP.txt  # Estimated variance components using polyGBLUP
 Varance_polyGDBLUP.txt # Estimated variance components using polyGDBLUP
 ```
+# Data simulation
+```
+Rscript ./bin/simFInaA.R 4 0.1
+Rscript ./bin/simFInAD.R 8 0.3 1
+
+4    # The ploidy level that needs to be simulated, 4 stands for autotetraploid.
+	   # Heritability to be simulated.
+8    # The ploidy level that needs to be simulated, 4 stands for Autooctaploid.
+0.3  # Heritability to be simulated.
+1    # dominance degree (δ)
+```
+
