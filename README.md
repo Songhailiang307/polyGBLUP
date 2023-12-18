@@ -91,22 +91,22 @@ Rscript ./bin/simFInAD.R 8 0.3 1
 0.3  # Heritability to be simulated.
 1    # dominance degree (δ)
 ```
-# Script Description
-* The folder bin contains the following scripts:
-GDmatrixforploidy.R is R code for constructing additive and dominant genomic relationship matrices based on different allele dosages for autopolyploid species.
-GDmatrixfor2.R is R code for constructing additive and dominant genomic relationship matrices for diploid species.
-simFInaA.R is R code for genetic effects of traits including additive effects only were simulated. 
-simFInaAD.R is R code for genetic effects of traits including additive effects and dominant effects were simulated.
-Gma_to_3lineID.py is python code that converts a matrix into a 3 column form.
-GINV.py is python code for matrix inversion.
-relvalphe.py is a python code that extracts reference populations and validates population phenotypes.
-marker.py is a python code that handles genotype files.
-gebv.py is a python code that extracts the GEBV of the GBLUP or polyGBLUP model.
-ggebv.py is a python code that extracts the GEBV of the GDBLUP or polyGDBLUP model.
-COR_REG_used2.py is a python code that calculates accuracy, unbiasedness, mse, and mae.
-gblup.DIR is a DMU driver file for polyGBLUP or GBLUP model.
-gblup.DIR is a DMU driver file for polyGDBLUP or GDBLUP model.
-r_dmuai, dmu1 and dmuai are the modules of DMU software.
-* The folder data contains the following files:
-Example includes simulated example data
-Sweetpotato includes autohexaploid sweet potato phenotype and genotype data
+# File Description
+## The folder bin contains the following scripts:
+* GDmatrixforploidy.R is R code for constructing additive and dominant genomic relationship matrices based on different allele dosages for autopolyploid species.
+* GDmatrixfor2.R is R code for constructing additive and dominant genomic relationship matrices for diploid species.
+* simFInaA.R is R code for genetic effects of traits including additive effects only were simulated. 
+* simFInaAD.R is R code for genetic effects of traits including additive effects and dominant effects were simulated.
+* Gma_to_3lineID.py is python code that converts a matrix into a 3 column form.
+* GINV.py is python code for matrix inversion.
+* relvalphe.py is a python code that extracts reference populations and validates population phenotypes.
+* marker.py is a python code that handles genotype files.
+* gebv.py is a python code that extracts the GEBV of the GBLUP or polyGBLUP model.
+* ggebv.py is a python code that extracts the GEBV of the GDBLUP or polyGDBLUP model.
+* COR_REG_used2.py is a python code that calculates accuracy, unbiasedness, mse, and mae.
+* gblup.DIR is a DMU driver file for polyGBLUP or GBLUP model.
+* gblup.DIR is a DMU driver file for polyGDBLUP or GDBLUP model.
+* r_dmuai, dmu1 and dmuai are the modules of DMU software.
+## The folder data contains the following files:
+* Example includes simulated example data
+* Sweetpotato includes autohexaploid sweet potato phenotype and genotype data
