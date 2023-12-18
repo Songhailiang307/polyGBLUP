@@ -28,7 +28,7 @@ ID G Sire Dam Sex Phe Tbv
 608 1 27 450 F 1.33129031811685 0.685598765498074
 609 1 27 450 M 0.956010092761646 1.72195216327604
 ```
-* Genotype.txt
+* Genotype.txt  
 Genotype file: No header and ID name, individual order consistent with phenotype file.
 ```
 8 0 0 0 0 3 3 5 0 0 5 0 0 0 0 0 8 8 
@@ -40,7 +40,7 @@ Genotype file: No header and ID name, individual order consistent with phenotype
 8 0 1 1 1 2 2 5 0 0 5 0 0 0 0 0 8 8
 ```
 
-* rel_id
+* rel_id  
 ID number of reference population
 ```
 16601
@@ -57,7 +57,7 @@ ID number of reference population
 16612
 ```
 
-* val_id
+* val_id  
 ID number of validation population
 ```
 19616
@@ -74,7 +74,7 @@ ID number of validation population
 20254
 18658
 ```
-* 8
+* 8  
 The specified ploidy level is based on the autopolyploid species
 
 ## Output file
