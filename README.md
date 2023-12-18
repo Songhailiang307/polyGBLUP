@@ -73,10 +73,10 @@ val_id # ID number of validation population
 ```
 GBLUP.txt              # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GBLUP
 GDBLUP.txt             # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GDBLUP
-Varance_GBLUP.txt      #Estimated variance components using GBLUP
-Varance_GDBLUP.txt     #Estimated variance components using GDBLUP
+Varance_GBLUP.txt      # Estimated variance components using GBLUP
+Varance_GDBLUP.txt     # Estimated variance components using GDBLUP
 polyGBLUP.txt          # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGBLUP
 polyGDBLUP.txt         # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGDBLUP
-Varance_polyGBLUP.txt  #Estimated variance components using polyGBLUP
-Varance_polyGDBLUP.txt #Estimated variance components using polyGDBLUP
+Varance_polyGBLUP.txt  # Estimated variance components using polyGBLUP
+Varance_polyGDBLUP.txt # Estimated variance components using polyGDBLUP
 ```
