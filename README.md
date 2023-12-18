@@ -29,8 +29,8 @@ ID G Sire Dam Sex Phe Tbv
 609 1 27 450 M 0.956010092761646 1.72195216327604
 ```
 * Genotype.txt
+Genotype file: No header and ID name, individual order consistent with phenotype file.
 ```
-# Genotype file: No header and ID name, individual order consistent with phenotype file.
 8 0 0 0 0 3 3 5 0 0 5 0 0 0 0 0 8 8 
 8 0 1 1 1 3 3 4 0 0 4 0 0 0 0 0 8 8 
 8 0 0 0 0 3 3 5 0 0 5 0 0 0 0 0 8 8 
@@ -41,8 +41,8 @@ ID G Sire Dam Sex Phe Tbv
 ```
 
 * rel_id
+ID number of reference population
 ```
- # ID number of reference population
 16601
 16602
 16603
@@ -58,8 +58,8 @@ ID G Sire Dam Sex Phe Tbv
 ```
 
 * val_id
+ID number of validation population
 ```
-# ID number of validation population
 19616
 18652
 20176
@@ -75,10 +75,8 @@ ID G Sire Dam Sex Phe Tbv
 18658
 ```
 * 8
-```
-#The specified ploidy level is based on the autopolyploid species
-8
-```
+The specified ploidy level is based on the autopolyploid species
+
 ## Output file
 * GBLUP.txt              # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GBLUP
 * GDBLUP.txt             # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GDBLUP
