@@ -14,7 +14,7 @@
 ```
 ## Description of arguments
 
-* Phenotype.txt
+* Phenotype.txt  
 Phenotype file: Columns 2 to 5 of “G Sir Dam Sex” are arbitrary but must include: if it is simulated data, TBV is the true breeding value; if it is real data, TBV is the phenotype value.
 ```
 ID G Sire Dam Sex Phe Tbv
