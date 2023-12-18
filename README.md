@@ -13,3 +13,4 @@ This script will store the results in a text file, including prediction accuracy
 ```
 ./polyGBLUP.sh Phenotype.txt Genotype.txt rel_id val_id 8
 ```
+## Description of arguments
