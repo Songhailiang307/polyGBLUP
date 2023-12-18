@@ -80,16 +80,15 @@ ID G Sire Dam Sex Phe Tbv
 8
 ```
 ## Output file
-```
-GBLUP.txt              # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GBLUP
-GDBLUP.txt             # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GDBLUP
-Varance_GBLUP.txt      # Estimated variance components using GBLUP
-Varance_GDBLUP.txt     # Estimated variance components using GDBLUP
-polyGBLUP.txt          # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGBLUP
-polyGDBLUP.txt         # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGDBLUP
-Varance_polyGBLUP.txt  # Estimated variance components using polyGBLUP
-Varance_polyGDBLUP.txt # Estimated variance components using polyGDBLUP
-```
+* GBLUP.txt              # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GBLUP
+* GDBLUP.txt             # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GDBLUP
+* Varance_GBLUP.txt      # Estimated variance components using GBLUP
+* Varance_GDBLUP.txt     # Estimated variance components using GDBLUP
+* polyGBLUP.txt          # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGBLUP
+* polyGDBLUP.txt         # Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGDBLUP
+* Varance_polyGBLUP.txt  # Estimated variance components using polyGBLUP
+* Varance_polyGDBLUP.txt # Estimated variance components using polyGDBLUP
+
 # Data simulation
 ```
 Rscript ./bin/simFInaA.R 4 0.1
