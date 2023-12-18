@@ -16,7 +16,7 @@
 
 * Phenotype.txt
 ```
-#Phenotype file: Columns 2 to 5 of “G Sir Dam Sex” are arbitrary but must include: if it is simulated data, TBV is the true breeding value; if it is real data, TBV is the phenotype value.
+# Phenotype file: Columns 2 to 5 of “G Sir Dam Sex” are arbitrary but must include: if it is simulated data, TBV is the true breeding value; if it is real data, TBV is the phenotype value.
 ID G Sire Dam Sex Phe Tbv
 601 1 27 450 M -0.378874325529809 -0.322451821660245
 602 1 27 450 F 0.537554667907665 -1.03486386149278
@@ -28,12 +28,9 @@ ID G Sire Dam Sex Phe Tbv
 608 1 27 450 F 1.33129031811685 0.685598765498074
 609 1 27 450 M 0.956010092761646 1.72195216327604
 ```
-
-
+* Genotype.txt
 ```
-
-Genotype.txt # Genotype file: No header and ID name, individual order consistent with phenotype file.
-
+# Genotype file: No header and ID name, individual order consistent with phenotype file.
 8 0 0 0 0 3 3 5 0 0 5 0 0 0 0 0 8 8 
 8 0 1 1 1 3 3 4 0 0 4 0 0 0 0 0 8 8 
 8 0 0 0 0 3 3 5 0 0 5 0 0 0 0 0 8 8 
@@ -41,8 +38,11 @@ Genotype.txt # Genotype file: No header and ID name, individual order consistent
 8 0 1 1 1 4 4 3 0 0 3 0 0 0 0 0 8 8 
 8 0 0 0 0 1 1 7 0 0 7 0 0 0 0 0 8 8 
 8 0 1 1 1 2 2 5 0 0 5 0 0 0 0 0 8 8
+```
 
-rel_id # ID number of reference population
+* rel_id
+```
+ # ID number of reference population
 16601
 16602
 16603
@@ -55,8 +55,11 @@ rel_id # ID number of reference population
 16610
 16611
 16612
+```
 
-val_id # ID number of validation population
+* val_id
+```
+# ID number of validation population
 19616
 18652
 20176
@@ -70,8 +73,11 @@ val_id # ID number of validation population
 20146
 20254
 18658
-
-8 #The specified ploidy level is based on the autopolyploid species
+```
+* 8
+```
+#The specified ploidy level is based on the autopolyploid species
+8
 ```
 ## Output file
 ```
