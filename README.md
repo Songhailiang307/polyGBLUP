@@ -41,7 +41,7 @@ Genotype file: No header and ID name, individual order consistent with phenotype
 ```
 
 * rel_id  
-ID number of reference population
+ID number of reference population.
 ```
 16601
 16602
@@ -58,7 +58,7 @@ ID number of reference population
 ```
 
 * val_id  
-ID number of validation population
+ID number of validation population.
 ```
 19616
 18652
@@ -75,25 +75,25 @@ ID number of validation population
 18658
 ```
 * 8  
-The specified ploidy level is based on the autopolyploid species
+The specified ploidy level is based on the autopolyploid species.
 
 ## Output file
 * GBLUP.txt  
-Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GBLUP
+Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GBLUP.
 * GDBLUP.txt  
-Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GDBLUP
+Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using GDBLUP.
 * Varance_GBLUP.txt  
-Estimated variance components using GBLUP
+Estimated variance components using GBLUP.
 * Varance_GDBLUP.txt  
-Estimated variance components using GDBLUP
+Estimated variance components using GDBLUP.
 * polyGBLUP.txt  
-Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGBLUP
+Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGBLUP.
 * polyGDBLUP.txt  
-Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGDBLUP
+Accuracy (corr), unbiasedness (reg), mse (MSE) and mae (MAE) of prediction using polyGDBLUP.
 * Varance_polyGBLUP.txt  
-Estimated variance components using polyGBLUP
+Estimated variance components using polyGBLUP.
 * Varance_polyGDBLUP.txt  
-Estimated variance components using polyGDBLUP
+Estimated variance components using polyGDBLUP.
 
 # Data simulation
 ```
