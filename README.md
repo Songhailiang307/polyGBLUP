@@ -125,3 +125,5 @@ Rscript ./bin/simFInAD.R 8 0.3 1
 ## The folder data contains the following files:
 * Example includes simulated example data
 * Sweetpotato includes autohexaploid sweet potato phenotype and genotype data
+# Publication
+Hailiang Song, Qin Zhang, Hongxia Hu, polyGBLUP: a modified genomic best linear unbiased prediction improved the genomic prediction efficiency for autopolyploid species, Briefings in Bioinformatics, Volume 25, Issue 2, March 2024, bbae106, https://doi.org/10.1093/bib/bbae106
